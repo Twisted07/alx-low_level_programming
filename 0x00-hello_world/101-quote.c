@@ -1,4 +1,6 @@
-#inclide <unistd.h>
+#include <unistd.h>
+#include <stdio.h>
+
 /*
 * main -function begins
 *Return: funtion ends
