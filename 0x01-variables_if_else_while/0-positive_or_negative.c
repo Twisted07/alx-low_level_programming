@@ -5,7 +5,7 @@
 /**
 * main - Function to print random number and states
 * if positive, negative or zero
-* return: end of funtion
+* Return: End of Funtion
 */
 
 int main(void)
@@ -22,5 +22,5 @@ int main(void)
 	else
 		printf("%d is zero\n", n);
 
-	return(0);
+	return (0);
 }
