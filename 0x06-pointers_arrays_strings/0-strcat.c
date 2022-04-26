@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strcat - a function that concatenates two strings.
+ * _strcat - a function that concatenates two strings
  * @dest: an input string
  * @src: an input string
  * Return: A pointer to the resulting string
@@ -14,7 +14,6 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[i])
 		i++;
-
 	while (src[i])
 	{
 		dest[i] = src[j];
