@@ -3,6 +3,8 @@
 
 /**
 * Main - check code
+*char c - character input
+* _puts_recursion prints a string with a new line
 * print a string then move to a new line
 * Return: 0
 */
