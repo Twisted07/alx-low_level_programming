@@ -47,8 +47,9 @@ int main(int argc, char *argv[])
 		else
 		{
 			printf("Error\n");
+			return (1);
 		}
-		return (1);
+		j++;
 	}
 	printf("%d\n", sum);
 	return (0);
