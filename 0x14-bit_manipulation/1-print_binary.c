@@ -19,7 +19,7 @@ void print_binary(unsigned long int n)
 		{
 			char bit = (byte >> j) & 1;
 
-			printf("%hdd", bit);
+			putchar(bit);
 		}
 		printf(" ");
 	}
