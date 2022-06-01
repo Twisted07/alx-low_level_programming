@@ -15,7 +15,7 @@ void print_binary(unsigned long int n)
 	{
 		char byte = *(((char *)&n) + i);
 
-		for (j = 8; j > 0; j++)
+		for (j = 8; j > 0; j--)
 		{
 			char bit = (byte >> j) & 1;
 
