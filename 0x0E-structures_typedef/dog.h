@@ -2,6 +2,12 @@
 #define DOG_H
 
 /**
+* dog_t - typedef struct dog
+*/
+
+typedef struct dog dog_t;
+
+/**
 * struct dog - structure of dog type
 * @name: first member of the type (a pointer)
 * which stores the address to the value of dog name
