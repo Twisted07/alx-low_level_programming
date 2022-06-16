@@ -1,20 +1,18 @@
-#include <stdlib.h>
-
+#include <stddef.h>
+/* defines size_t */
 
 /**
- * array_iterator - executes a function given as a parameter
- * on each element of an array
- * @array: array to iterate over
- * @size: size of the array
- * @action: pointer to function used
+ * array_iterator - execute function on an array via a function ptr
+ * @array: array
+ * @size: size of array
+ * @action: pointer to function that we need to execute
  */
+
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i;
+	size_t i; /* match data type */
 
-	if (!array || !action)
-		return;
-
-	for (i = 0; i < size; i++)
-		action(array[i]);
+	if (array != NULL && action != NULL)
+		for (i = 0; i < size; i++)
+			action(array[i]);
 }
